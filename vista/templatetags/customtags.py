@@ -1,6 +1,6 @@
 from django import template
 from django.conf import settings
-from django.core.urlresolvers import resolve
+from django.urls import resolve
 from datetime import date, timedelta, datetime
 from dateutil import relativedelta
 from pytz import timezone
