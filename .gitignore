@@ -126,3 +126,4 @@ Temporary Items
 .idea
 /static/common/assets/
 db.sqlite3
+**/migrations/
