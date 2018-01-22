@@ -41,7 +41,7 @@ class GlobalPermission(Permission):
         super(GlobalPermission, self).save(*args, **kwargs)
         
 class Usuario(models.Model):
-    user = models.OneToOneField(User)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     foto=models.ImageField(upload_to='photos/%Y/%m/%d', null=True,blank=True,verbose_name=u'Foto')
 
 

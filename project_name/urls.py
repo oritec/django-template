@@ -19,7 +19,7 @@ from usuarios.views import ingresar, salir
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^',include('vista.urls', namespace='vista', app_name="vista")),
+    url(r'^', include('vista.urls', namespace='vista')),
     url(r'^login/$', ingresar, {'homepage':'vista:index'}, name='ingresar'),
     url(r'^logout/$', salir, name='salir'),
 ]
