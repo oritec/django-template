@@ -123,7 +123,9 @@ Temporary Items
 .apdisk
 
 /static/common/assets.zip
+/static/assets.zip
 .idea
 /static/common/assets/
+/static/assets/
 db.sqlite3
 **/migrations/
